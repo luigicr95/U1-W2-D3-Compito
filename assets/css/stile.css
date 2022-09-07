@@ -17,11 +17,6 @@ body {
   body {
     line-height: 1.8;
   }
-  header div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
 }
 
 @media screen and (min-width: 700px) {
@@ -92,6 +87,14 @@ header {
   top: 0;
   z-index: 10;
 }
+@media screen and (min-width: 500px) {
+  header div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
 @media screen and (min-width: 800px) {
   header {
     padding: 1.3em;
@@ -304,6 +307,32 @@ aside div p:last-child {
   margin-bottom: 0;
   font-size: 0.8em;
   text-align: right;
+}
+
+/*@media screen and (min-width: 500px) {
+  .related-box {
+    display: flex;
+    justify-content: space-between;
+  }
+}*/
+
+@media screen and (min-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+  aside div {
+    height: 200px;
+    width: 250px;
+  }
+  aside h2 {
+    font-size: 1.3rem;
+  }
 }
 
 /* FOOTER */
