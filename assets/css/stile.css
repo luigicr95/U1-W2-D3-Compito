@@ -309,12 +309,12 @@ aside div p:last-child {
   text-align: right;
 }
 
-/*@media screen and (min-width: 500px) {
-  .related-box {
+@media screen and (min-width: 500px) {
+  aside div {
     display: flex;
     justify-content: space-between;
   }
-}*/
+}
 
 @media screen and (min-width: 800px) {
   main {
