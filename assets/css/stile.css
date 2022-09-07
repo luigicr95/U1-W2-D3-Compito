@@ -337,6 +337,7 @@ aside div p:last-child {
   aside div {
     height: 200px;
     width: 250px;
+    flex: 0 0 0;
   }
   aside h2 {
     font-size: 1.3rem;
